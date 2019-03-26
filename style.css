@@ -1,0 +1,10 @@
+.botao{
+    background-color: #2CAD20;
+    font-variant-caps: all-petite-caps;
+    border: 2px solid #1c8710;
+    font-family: sans-serif;
+}
+
+a:default{
+    color: white;
+}
