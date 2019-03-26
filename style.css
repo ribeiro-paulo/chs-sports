@@ -1,10 +1,20 @@
-.botao{
+.botaoVerde{
     background-color: #2CAD20;
-    font-variant-caps: all-petite-caps;
-    border: 2px solid #1c8710;
+    color: white;
     font-family: sans-serif;
+    font-variant-caps: all-petite-caps;
+    height: 54px;
 }
 
-a:default{
-    color: white;
+.botaoCinza{
+    width: 54px;
+    height: 54px;
+}
+
+nav{
+    background-color: #F9F9F9;
+    font-family: sans-serif;
+    
+    font-size: 14pt;
+    font-style: normal;
 }
