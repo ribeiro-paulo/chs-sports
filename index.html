@@ -7,6 +7,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <!-- Bootstrap CSS -->
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
         <link href="style.css" rel="stylesheet">
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
     </head>
@@ -16,24 +17,32 @@
         <nav class="navbar navbar-light" style="nav">
             <div class="container-fluid">
                 <div class="navbar-header">
-                    <a class="navbar-left" href="#"><img src="imagens/header-logo.png" width="270" height="45"></a>
+                    <a class="navbar-left" href="#"><img src="imagens/logo.png" width="270" height="45"></a>
                 </div>
                 <ul class="nav navbar-nav navbar-right">
                     <form class="navbar-form navbar-left" action="/action_page.php">
                         <div class="input-group">
-                            <input type="text" class="form-control" placeholder="Search">
+                            <input type="text" class="form-control search" placeholder="Buscar campeonatos, times...">
                             <div class="input-group-btn">
-                            <button class="btn btn-default" type="submit">
+                            <button class="btn btn-default search" type="submit">
                                 <i class="glyphicon glyphicon-search"></i>
                             </button>
                             </div>
                         </div>
                     </form>
-                    <li><a href="#" class="botaoCinza" ><img src="imagens/login.png" width="25" height ="25" class="d-inline-block align-top"/></a></li>
-                    <li><a href="#" class="botaoVerde"> Registrar-se</a></li>
+                    <li><a href="#" class="btn-login " ><img src="imagens/login.png" width="25" height ="25" class="d-inline-block align-top"/></a></li>
+                    <li><a href="#" class="btn-primary">Registrar-se</a>  </li>
                 </ul>
             </div>
         </nav>
+        
+        <div class="row">
+            <div class="col-lg-12"  >
+                <img class="header" src="imagens/header.png"/>
+                <h2>Crie o seu campeonato, é gratuito!</h2>
+                <button class="btn btn-register" type="submit">Registre-se</button>
+            </div>    
+        </div>
         
         
         <!-- Optional JavaScript -->
