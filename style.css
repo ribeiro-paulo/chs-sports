@@ -9,13 +9,24 @@
     height: auto;
 }
 
-.btn-primary{
+.btnEntrar{
+    background-color: #2CAD20;
+    color: white;
+    font-family: sans-serif;
+    padding: 10px;
+    font-variant-caps: all-petite-caps;
+    height: 40px;
+    
+}
+
+.btnRegistrar{
     background-color: #2CAD20;
     color: white;
     font-family: sans-serif;
     padding: 10px;
     font-variant-caps: all-petite-caps;
     height: 54px;
+    
 }
 
 .btn-login{
@@ -77,4 +88,37 @@ nav{
     font-size: 14pt;
     font-style: normal;
     margin-bottom: 0px;
+}
+
+#login-dp{
+    min-width: 250px;
+    padding: 14px 14px 0;
+    overflow:hidden;
+    background-color:rgba(#F9F9F9);
+}
+
+#login-dp .help-block{
+    font-size:12px    
+}
+
+#login-dp .bottom{
+    background-color:rgba(255,255,255,.8);
+    border-top:1px solid #ddd;
+    clear:both;
+    padding:14px;
+}
+
+#login-dp .form-group {
+    margin-bottom: 10px;
+}
+
+@media(max-width:768px){
+    #login-dp{
+        background-color: inherit;
+        color: #fff;
+    }
+    #login-dp .bottom{
+        background-color: inherit;
+        border-top:0 none;
+    }
 }
